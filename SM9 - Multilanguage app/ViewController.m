@@ -15,8 +15,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [_informationButton setTitle:@"Information" forState:UIControlStateNormal];
 }
 
+- (IBAction)showInformation{
+    UIAlertController *alertDialog= [
+        UIAlertController alertControllerWithTitle :@"Information"
+        message:[
+            NSString stringWithFormat:@"The faculty is running %i programs at graduate and undergraduate level.",4
+        ]
+        preferredStyle:UIAlertControllerStyleAlert
+    ];
+    UIAlertAction *defaultAction=[
+        UIAlertAction actionWithTitle:@"OK"
+        style:UIAlertActionStyleDefault
+        handler:^(UIAlertAction *action){}
+    ];
+    [alertDialog addAction:defaultAction];
+    [self presentViewController:alertDialog animated:YES completion:nil];
+}
 
 @end

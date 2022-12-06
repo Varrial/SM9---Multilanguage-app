@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIButton *informationButton;
 
 @end
 
