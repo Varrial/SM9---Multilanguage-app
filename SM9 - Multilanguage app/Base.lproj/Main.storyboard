@@ -35,6 +35,7 @@
                     </view>
                     <connections>
                         <outlet property="informationButton" destination="mLS-6C-d6J" id="RhN-lv-lAV"/>
+                        <outlet property="universityImage" destination="WG0-hS-cnb" id="7BV-W1-bF1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

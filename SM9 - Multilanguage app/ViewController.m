@@ -16,14 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [_informationButton setTitle:@"Information" forState:UIControlStateNormal];
+    [_informationButton setTitle:NSLocalizedString(@"Information", nil) forState:UIControlStateNormal];
+    [_universityImage setImage:[UIImage imageNamed:NSLocalizedString(@"image", nil)]];
 }
 
 - (IBAction)showInformation{
     UIAlertController *alertDialog= [
         UIAlertController alertControllerWithTitle :@"Information"
         message:[
-            NSString stringWithFormat:@"The faculty is running %i programs at graduate and undergraduate level.",4
+            NSString stringWithFormat:NSLocalizedString(@"The faculty is running %i programs on graduate and undergraduate level.",nil)
         ]
         preferredStyle:UIAlertControllerStyleAlert
     ];
