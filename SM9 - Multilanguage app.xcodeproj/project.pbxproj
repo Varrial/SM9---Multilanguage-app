@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F698036A293FE5B800737CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6980369293FE5B800737CEF /* AppDelegate.m */; };
+		F698036D293FE5B800737CEF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F698036C293FE5B800737CEF /* SceneDelegate.m */; };
+		F6980370293FE5B800737CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698036F293FE5B800737CEF /* ViewController.m */; };
+		F6980373293FE5B800737CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6980371293FE5B800737CEF /* Main.storyboard */; };
+		F6980375293FE5B900737CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6980374293FE5B900737CEF /* Assets.xcassets */; };
+		F6980378293FE5B900737CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6980376293FE5B900737CEF /* LaunchScreen.storyboard */; };
+		F698037B293FE5B900737CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F698037A293FE5B900737CEF /* main.m */; };
+		F6980385293FE5B900737CEF /* SM9___Multilanguage_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6980384293FE5B900737CEF /* SM9___Multilanguage_appTests.m */; };
+		F698038F293FE5B900737CEF /* SM9___Multilanguage_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F698038E293FE5B900737CEF /* SM9___Multilanguage_appUITests.m */; };
+		F6980391293FE5B900737CEF /* SM9___Multilanguage_appUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6980390293FE5B900737CEF /* SM9___Multilanguage_appUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6980381293FE5B900737CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F698035D293FE5B800737CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6980364293FE5B800737CEF;
+			remoteInfo = "SM9 - Multilanguage app";
+		};
+		F698038B293FE5B900737CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F698035D293FE5B800737CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6980364293FE5B800737CEF;
+			remoteInfo = "SM9 - Multilanguage app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6980365293FE5B800737CEF /* SM9 - Multilanguage app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SM9 - Multilanguage app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6980368293FE5B800737CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6980369293FE5B800737CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F698036B293FE5B800737CEF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F698036C293FE5B800737CEF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F698036E293FE5B800737CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F698036F293FE5B800737CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6980372293FE5B800737CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6980374293FE5B900737CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6980377293FE5B900737CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6980379293FE5B900737CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F698037A293FE5B900737CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6980380293FE5B900737CEF /* SM9 - Multilanguage appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM9 - Multilanguage appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6980384293FE5B900737CEF /* SM9___Multilanguage_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM9___Multilanguage_appTests.m"; sourceTree = "<group>"; };
+		F698038A293FE5B900737CEF /* SM9 - Multilanguage appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM9 - Multilanguage appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F698038E293FE5B900737CEF /* SM9___Multilanguage_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM9___Multilanguage_appUITests.m"; sourceTree = "<group>"; };
+		F6980390293FE5B900737CEF /* SM9___Multilanguage_appUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM9___Multilanguage_appUITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6980362293FE5B800737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698037D293FE5B900737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6980387293FE5B900737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F698035C293FE5B800737CEF = {
+			isa = PBXGroup;
+			children = (
+				F6980367293FE5B800737CEF /* SM9 - Multilanguage app */,
+				F6980383293FE5B900737CEF /* SM9 - Multilanguage appTests */,
+				F698038D293FE5B900737CEF /* SM9 - Multilanguage appUITests */,
+				F6980366293FE5B800737CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6980366293FE5B800737CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6980365293FE5B800737CEF /* SM9 - Multilanguage app.app */,
+				F6980380293FE5B900737CEF /* SM9 - Multilanguage appTests.xctest */,
+				F698038A293FE5B900737CEF /* SM9 - Multilanguage appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6980367293FE5B800737CEF /* SM9 - Multilanguage app */ = {
+			isa = PBXGroup;
+			children = (
+				F6980368293FE5B800737CEF /* AppDelegate.h */,
+				F6980369293FE5B800737CEF /* AppDelegate.m */,
+				F698036B293FE5B800737CEF /* SceneDelegate.h */,
+				F698036C293FE5B800737CEF /* SceneDelegate.m */,
+				F698036E293FE5B800737CEF /* ViewController.h */,
+				F698036F293FE5B800737CEF /* ViewController.m */,
+				F6980371293FE5B800737CEF /* Main.storyboard */,
+				F6980374293FE5B900737CEF /* Assets.xcassets */,
+				F6980376293FE5B900737CEF /* LaunchScreen.storyboard */,
+				F6980379293FE5B900737CEF /* Info.plist */,
+				F698037A293FE5B900737CEF /* main.m */,
+			);
+			path = "SM9 - Multilanguage app";
+			sourceTree = "<group>";
+		};
+		F6980383293FE5B900737CEF /* SM9 - Multilanguage appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6980384293FE5B900737CEF /* SM9___Multilanguage_appTests.m */,
+			);
+			path = "SM9 - Multilanguage appTests";
+			sourceTree = "<group>";
+		};
+		F698038D293FE5B900737CEF /* SM9 - Multilanguage appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F698038E293FE5B900737CEF /* SM9___Multilanguage_appUITests.m */,
+				F6980390293FE5B900737CEF /* SM9___Multilanguage_appUITestsLaunchTests.m */,
+			);
+			path = "SM9 - Multilanguage appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6980364293FE5B800737CEF /* SM9 - Multilanguage app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6980394293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage app" */;
+			buildPhases = (
+				F6980361293FE5B800737CEF /* Sources */,
+				F6980362293FE5B800737CEF /* Frameworks */,
+				F6980363293FE5B800737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SM9 - Multilanguage app";
+			productName = "SM9 - Multilanguage app";
+			productReference = F6980365293FE5B800737CEF /* SM9 - Multilanguage app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F698037F293FE5B900737CEF /* SM9 - Multilanguage appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6980397293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage appTests" */;
+			buildPhases = (
+				F698037C293FE5B900737CEF /* Sources */,
+				F698037D293FE5B900737CEF /* Frameworks */,
+				F698037E293FE5B900737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6980382293FE5B900737CEF /* PBXTargetDependency */,
+			);
+			name = "SM9 - Multilanguage appTests";
+			productName = "SM9 - Multilanguage appTests";
+			productReference = F6980380293FE5B900737CEF /* SM9 - Multilanguage appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6980389293FE5B900737CEF /* SM9 - Multilanguage appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F698039A293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage appUITests" */;
+			buildPhases = (
+				F6980386293FE5B900737CEF /* Sources */,
+				F6980387293FE5B900737CEF /* Frameworks */,
+				F6980388293FE5B900737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F698038C293FE5B900737CEF /* PBXTargetDependency */,
+			);
+			name = "SM9 - Multilanguage appUITests";
+			productName = "SM9 - Multilanguage appUITests";
+			productReference = F698038A293FE5B900737CEF /* SM9 - Multilanguage appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F698035D293FE5B800737CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F6980364293FE5B800737CEF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F698037F293FE5B900737CEF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F6980364293FE5B800737CEF;
+					};
+					F6980389293FE5B900737CEF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F6980364293FE5B800737CEF;
+					};
+				};
+			};
+			buildConfigurationList = F6980360293FE5B800737CEF /* Build configuration list for PBXProject "SM9 - Multilanguage app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F698035C293FE5B800737CEF;
+			productRefGroup = F6980366293FE5B800737CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6980364293FE5B800737CEF /* SM9 - Multilanguage app */,
+				F698037F293FE5B900737CEF /* SM9 - Multilanguage appTests */,
+				F6980389293FE5B900737CEF /* SM9 - Multilanguage appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6980363293FE5B800737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6980378293FE5B900737CEF /* LaunchScreen.storyboard in Resources */,
+				F6980375293FE5B900737CEF /* Assets.xcassets in Resources */,
+				F6980373293FE5B800737CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698037E293FE5B900737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6980388293FE5B900737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6980361293FE5B800737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6980370293FE5B800737CEF /* ViewController.m in Sources */,
+				F698036A293FE5B800737CEF /* AppDelegate.m in Sources */,
+				F698037B293FE5B900737CEF /* main.m in Sources */,
+				F698036D293FE5B800737CEF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698037C293FE5B900737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6980385293FE5B900737CEF /* SM9___Multilanguage_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6980386293FE5B900737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6980391293FE5B900737CEF /* SM9___Multilanguage_appUITestsLaunchTests.m in Sources */,
+				F698038F293FE5B900737CEF /* SM9___Multilanguage_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6980382293FE5B900737CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6980364293FE5B800737CEF /* SM9 - Multilanguage app */;
+			targetProxy = F6980381293FE5B900737CEF /* PBXContainerItemProxy */;
+		};
+		F698038C293FE5B900737CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6980364293FE5B800737CEF /* SM9 - Multilanguage app */;
+			targetProxy = F698038B293FE5B900737CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6980371293FE5B800737CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6980372293FE5B800737CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6980376293FE5B900737CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6980377293FE5B900737CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6980392293FE5B900737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6980393293FE5B900737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6980395293FE5B900737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM9 - Multilanguage app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6980396293FE5B900737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM9 - Multilanguage app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6980398293FE5B900737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM9 - Multilanguage app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM9 - Multilanguage app";
+			};
+			name = Debug;
+		};
+		F6980399293FE5B900737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM9 - Multilanguage app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM9 - Multilanguage app";
+			};
+			name = Release;
+		};
+		F698039B293FE5B900737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM9 - Multilanguage app";
+			};
+			name = Debug;
+		};
+		F698039C293FE5B900737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM9---Multilanguage-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM9 - Multilanguage app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6980360293FE5B800737CEF /* Build configuration list for PBXProject "SM9 - Multilanguage app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6980392293FE5B900737CEF /* Debug */,
+				F6980393293FE5B900737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6980394293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6980395293FE5B900737CEF /* Debug */,
+				F6980396293FE5B900737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6980397293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6980398293FE5B900737CEF /* Debug */,
+				F6980399293FE5B900737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F698039A293FE5B900737CEF /* Build configuration list for PBXNativeTarget "SM9 - Multilanguage appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F698039B293FE5B900737CEF /* Debug */,
+				F698039C293FE5B900737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F698035D293FE5B800737CEF /* Project object */;
+}
